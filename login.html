@@ -10,6 +10,38 @@
 </head>
 
 <body>   
+    <header>
+        <nav class="nav-bar">
+            <div class="logo"> <img src="assets/fotos/Logo.png" alt="Logo">
+                <h1 >KIT-on</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="Sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/css/fotos/menu white.jpg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="Sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </div>
+    </header>
     <main id="container">
         <form id="login_form">
            
@@ -89,4 +121,76 @@
     
     <script type="text/javascript" src="css/script.js"></script>
 </body>
+<footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Logo</h1>
+            <p>Faça parte dessa mudança.</p>
+
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        
+        <ul class="footer-list">
+            <li>
+                <h3>Confira</h3>
+            </li>
+            <li>
+                <a href="login.html" class="footer-link">Login</a>
+            </li>
+            <li>
+                <a href="Sobre.html" class="footer-link">Sobre nós</a>
+            </li>
+            <li>
+                <a href="contato.html" class="footer-link">Contate-nos</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Extra</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">App</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Doações</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Trabalhe conosco</a>
+            </li>
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Se mantendo antenado</h3>
+
+            <p>
+                Coloque seu email para receber noticias!
+            </p>
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        &#169
+        2023 all rights reserved
+    </div>
+</footer>
 </html>
